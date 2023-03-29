@@ -28,10 +28,6 @@ const createGrid = () => {
     createTiles(rows * columns);
 }
 
-const colors = [
-    'rgb(229,)'
-]
-
 const animate = () => {
     anime({
       targets: ".tile",
@@ -59,9 +55,6 @@ const animate = () => {
     });
 }
 
-
-
 window.onresize = () => createGrid();
 
 createGrid();
-

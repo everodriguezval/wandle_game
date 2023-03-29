@@ -25,12 +25,9 @@ async function init() {
     function handleCommit(){
         // If word doesn't contain 5 letters...
 
-
-
         // Mark 'correct', 'close', 'wrong' squares
 
         // Did the user win or lose?
-
 
         // set currentGuess to empty string
         // increment currentRow
@@ -56,7 +53,5 @@ function isLetter(action) {
 }
 
 function makeMap(array) {
-    // Create object of 
+    // Create object of characters along with amount of occurrences in word.
 }
-
-init();
